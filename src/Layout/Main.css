@@ -1,0 +1,6 @@
+.mainContainer {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-rows: 10vh minmax(90vh, auto) 30vh;
+  /* grid-template-areas: "header" "outlet" "footer"; */
+}

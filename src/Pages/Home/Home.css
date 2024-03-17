@@ -1,0 +1,82 @@
+.homeContainer {
+  display: grid;
+  grid-template-rows: 105vh minmax(90vh, auto) 1fr;
+  margin: 0 50px;
+  margin-bottom: 80px;
+}
+
+.homeFrontContainer {
+  border: 1px solid black;
+  height: auto;
+  border-radius: 30px;
+  background-color: #f4faf5;
+}
+
+.homeProductContainer {
+  /* border: 1px solid black; */
+  margin-top: 80px;
+  margin-bottom: 80px;
+}
+
+.homeProductContainer h1 {
+  color: #3c4043;
+  text-align: center;
+  font-size: 2.35rem;
+}
+
+.homeProductMainBox {
+  /* border: 1px solid black; */
+  margin-top: 40px;
+  display: grid;
+  grid-template-columns: 7.9% 1fr 7.9%;
+  align-items: center;
+}
+
+.homeProductBox1 {
+  /* border: 1px solid black; */
+  height: 50%;
+  justify-self: center;
+}
+
+.homeProductBox3 {
+  /* border: 1px solid black; */
+  height: 50%;
+  justify-self: center;
+}
+
+.arrowBox {
+  border: 1px solid rgba(0, 0, 0, 0.2);
+  width: 65px;
+  height: 65px;
+  border-radius: 100%;
+  font-size: 25px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+/* ############################# */
+.homeProductBox2 {
+  /* border: 1px solid black; */
+  display: flex;
+  padding-bottom: 60px;
+  column-gap: 25px;
+  overflow-x: auto;
+  overflow-y: hidden;
+  scroll-behavior: smooth;
+  white-space: nowrap;
+}
+
+.homeProductBox2::-webkit-scrollbar {
+  height: 2px; /* Width of vertical scrollbar */
+}
+
+.homeProductBox2::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Track color */
+}
+
+.homeProductBox2::-webkit-scrollbar-thumb {
+  background: rgba(0, 0, 0, 0.7);
+  border-radius: 50px; /* Roundness of scrollbar thumb */
+}
+

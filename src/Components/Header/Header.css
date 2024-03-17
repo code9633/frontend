@@ -1,0 +1,69 @@
+.headerContainer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.scrolled {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: white; /* Ensure background color is set for shadow effect */
+  position: sticky;
+  top: 0;
+  z-index: 1000;
+  transition: box-shadow 0.3s ease;
+  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add shadow when scrolled */
+}
+
+.headerListLeft {
+  display: flex;
+  align-items: center;
+  column-gap: 25px;
+  padding: 5px 60px;
+}
+
+.headerListLeft li {
+  list-style: none;
+}
+.headerListLeft img {
+  width: 40px;
+}
+
+.headerListLeft a {
+  text-decoration: none;
+  color: black;
+}
+
+.headerListLeft a:hover {
+  color: blue;
+}
+
+.headerContainerRight {
+  display: flex;
+  column-gap: 25px;
+  color: black;
+  font-size: 25px;
+  padding: 5px 60px;
+}
+
+.headerRightIcon:hover {
+  cursor: pointer;
+  color: blue;
+}
+
+.headerContainerRight button {
+  background-color: #d3d4d7;
+  color: black;
+  width: 80px;
+  border-radius: 3px;
+  height: 30px;
+  border: 1px solid black;
+  font-size: 15px;
+  margin-left: 10px;
+}
+
+.headerContainer button:hover {
+  cursor: pointer;
+  box-shadow: 0 0 8px rgba(91, 90, 90, 0.5);
+}

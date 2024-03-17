@@ -1,0 +1,25 @@
+.productContainer {
+  /* border: 1px solid black; */
+  margin: 0 50px;
+  margin-bottom: 80px;
+}
+
+.prodctContainerHeaderTittle {
+  /* border: 1px solid black; */
+  text-align: center;
+  padding-top: 80px;
+  font-size: 1.5rem;
+  color: #3c4043;
+}
+
+.productItemBox {
+  /* border: 1px solid black; */
+  display: grid;
+  grid-template-columns: repeat(3, 33.33%);
+  margin-top: 80px;
+  column-gap: 30px;
+  row-gap: 60px;
+  margin-left: 100px;
+  margin-right: 100px;
+}
+
